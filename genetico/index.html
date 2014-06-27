@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Algoritmo Genético</title>
+	<style>
+	#canvas{
+		border: solid;
+	}
+	</style>
+</head>
+<body>
+	<canvas width="800" height="400" id="canvas"></canvas><br>
+	<input type="number" required id="N" placeholder="Number of chromosomes"><br>
+	<input type="number" required id="generaciones" placeholder="Number of generations"><br>
+	<select id="algorithm_box">
+		<option value="1">Genetic Algorithm</option>
+		<option value="2">Deterministic</option>
+		<option value="3">Simulated...</option>
+	</select>
+	<button id="calculate">Shortest distance</button>
+
+	<script src="GeneticAlgorithm.js"></script>
+	<script src="permutation.js"></script>
+	<script src="simulated.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
